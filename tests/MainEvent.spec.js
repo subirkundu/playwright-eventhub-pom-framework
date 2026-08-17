@@ -28,7 +28,7 @@ test('End to End Event Flow', async ({ page }) => {
     //Book Event
 
     const bookEvents = new BookTicket(page);
-    await bookEvents.BookEvent(uTitle, uName, uEmail, uNumber);
+    await bookEvents.BookEvent(uTitle, uName, uEmail, uNumber);                                                           
 
 
     // Event Verify
