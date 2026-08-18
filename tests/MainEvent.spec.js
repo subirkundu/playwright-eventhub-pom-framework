@@ -12,7 +12,7 @@ test('End to End Event Flow', async ({ page }) => {
     const uDes = "We are creating this event for the End to End flow of Event by Playwright";
     const uTime = "2030-12-30T16:55";
     const uName = "Mr. J";
-    const uNumber = "+91 98765 43210";
+    const uNumber = "+91 98765 43222";
 
 
     // Login Process
