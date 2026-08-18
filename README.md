@@ -165,8 +165,8 @@ npx playwright show-report
 
 ## 👨‍💻 Author
 
-Subir Kundo
-QA AEngineer
+Subir Kundu
+SQA AEngineer
 kundosubir@gmail.com
 
 ---
