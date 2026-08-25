@@ -174,7 +174,3 @@ kundosubir@gmail.com
 ## 📝 License
 
 This project is open source and available for learning and practice purposes.
-
----
-
-> 💡 *Built with ❤️ for learning Playwright and QA Automation best practices.*
