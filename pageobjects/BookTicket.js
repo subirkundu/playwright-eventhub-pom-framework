@@ -1,8 +1,6 @@
 class BookTicket {
     constructor(page, uTitle) {
-
         this.page = page;
-
         this.bEvent = page.getByTestId("nav-events");
         this.pButton = page.getByRole('button', { name: '+' });
         this.cName = page.locator("#customerName");
@@ -26,5 +24,4 @@ class BookTicket {
 
     }
 }
-
 module.exports = { BookTicket }
