@@ -32,9 +32,6 @@ class CreateEvent {
         await expect(this.page.getByText(uTitle)).toBeVisible();
         console.log("Event Title verified and clicked Successfully!");
 
-
-
-
     }
 }
 
