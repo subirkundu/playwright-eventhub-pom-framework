@@ -14,7 +14,6 @@ class CreateEvent {
         this.nprice = page.getByPlaceholder("0.00");
         this.nSeat = page.getByPlaceholder("e.g. 500");
         this.cEVent = page.getByTestId("add-event-btn");
-
     }
 
     async CreteNewEvent(uTitle, uDes, uTime) {
@@ -31,9 +30,6 @@ class CreateEvent {
         await this.cEVent.click();
         await expect(this.page.getByText(uTitle)).toBeVisible();
         console.log("Event Title verified and clicked Successfully!");
-
-
-
 
     }
 }

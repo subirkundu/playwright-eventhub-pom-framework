@@ -5,7 +5,6 @@ class LoginPage {
         this.userPass = page.locator("#password");
         this.signIn = page.locator("#login-btn");
 
-
     }
 
     async goTo() {

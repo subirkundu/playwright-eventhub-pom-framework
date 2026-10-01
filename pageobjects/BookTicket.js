@@ -23,7 +23,6 @@ class BookTicket {
         await this.cNumber.fill(uNumber);
         await this.confirmB.click();
 
-
     }
 }
 

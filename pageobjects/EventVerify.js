@@ -16,8 +16,6 @@ class EventVerify {
         await expect(this.page.getByText(uName)).toBeVisible();
         await expect(this.page.getByText(uEmail).last()).toBeVisible(); await expect(this.page.getByText(uNumber)).toBeVisible();
         console.log("All of the Customer Information is Verified Successfully");
-
-
     }
 
     async homePage(uTitle) {
