@@ -21,7 +21,7 @@
 
 This project is a fully automated **End-to-End test suite** for an Event Booking web application built using **Playwright** and the **Page Object Model (POM)** design pattern.
 
-The test suite covers the complete event booking flow including:
+The test suite covers the complete event booking flow, including:
 - User Login
 - Event Creation (Title, Description, Category, City, Venue, Date, Price, Seats)
 - Ticket Booking with Customer Details
@@ -166,6 +166,7 @@ npx playwright show-report
 ## 👨‍💻 Author
 
 Subir Kundu 
+
 SQA Engineer 
 kundosubir@gmail.com
 
@@ -174,7 +175,3 @@ kundosubir@gmail.com
 ## 📝 License
 
 This project is open source and available for learning and practice purposes.
-
----
-
-> 💡 *Built with ❤️ for learning Playwright and QA Automation best practices.*
