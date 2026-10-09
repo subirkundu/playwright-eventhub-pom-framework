@@ -15,7 +15,6 @@ class CreateEvent {
         this.nSeat = page.getByPlaceholder("e.g. 500");
         this.cEVent = page.getByTestId("add-event-btn");
     }
-
     async CreteNewEvent(uTitle, uDes, uTime) {
         await this.browserButton.click();
         await this.addNew.click();

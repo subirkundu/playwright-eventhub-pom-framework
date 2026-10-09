@@ -3,9 +3,7 @@ class EventVerify {
     constructor(page) {
         this.page = page;
         this.mBooking = page.getByRole("button", { name: "View My Bookings" });
-
     }
-
     async VerifyingEvent(uName, uEmail, uNumber) {
 
         const bookingRef = await this.page.locator(".booking-ref").textContent();

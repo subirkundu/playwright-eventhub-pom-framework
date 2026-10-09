@@ -4,7 +4,6 @@ class LoginPage {
         this.userEmail = page.getByPlaceholder("you@email.com");
         this.userPass = page.locator("#password");
         this.signIn = page.locator("#login-btn");
-
     }
 
     async goTo() {

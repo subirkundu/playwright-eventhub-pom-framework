@@ -15,7 +15,6 @@ class BookTicket {
         for (let i = 0; i < 4; i++) {
             await this.pButton.click();
         };
-
         await this.cName.fill(uName);
         await this.fEmail.fill(uEmail);
         await this.cNumber.fill(uNumber);
